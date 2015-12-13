@@ -16,7 +16,7 @@ function chunk(arr, size) {
   while(i < arr.length) {
 
     /*
-    Push a slice of the origianl array into the new array.
+    Push a slice of the original array into the new array.
 
     'i' would iterate in the while loop like so (using the first example);
 
