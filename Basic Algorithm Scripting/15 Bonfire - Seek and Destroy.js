@@ -29,6 +29,7 @@ function destroyer(arr) {
   */
   var filtered = arr.filter(function(value) {
     // indexOf returns minus -1 when the search doesn't return a match.
+    // We're pushing each of arr's items into the indexOf args - if theres a match it'll return the index otherwise -1.
     // This add's all items that return -1 (didn't match) to the new array.
     return args.indexOf(value) === -1;
   });
