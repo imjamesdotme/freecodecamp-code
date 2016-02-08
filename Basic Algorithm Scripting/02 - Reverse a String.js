@@ -1,6 +1,6 @@
 /*
 
-Bonfire - Reverse a String
+Reverse a String
 
 Reverse the provided string.
 
